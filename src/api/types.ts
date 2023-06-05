@@ -6,7 +6,7 @@ export enum TAG {
 }
 
 export interface IPost {
-  id: string;
+  id: number;
   title: string;
   contents: string;
   tag: TAG;
